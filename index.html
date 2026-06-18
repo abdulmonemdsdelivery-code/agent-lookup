@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بيانات المندوب</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="unnamed (4).jpg" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="logo">
+          <img src="unnamed (4).jpg" alt="" width="150px" />
+        </div>
+        <h1>اعرف تقسيم جودة التسليم</h1>
+        <p class="subtitle">أدخل رقم ID الخاص بك لعرض بياناتك</p>
+      </div>
+
+      <!-- Search -->
+      <label for="agentId">🔢 رقم الـ ID</label>
+      <input
+        type="text"
+        id="agentId"
+        placeholder="أدخل رقم الـ ID هنا"
+        oninput="clearResult()"
+        onkeydown="if (event.key === 'Enter') lookup();"
+      />
+      <button onclick="lookup()">🔍 &nbsp; عرض الفئة</button>
+
+      <!-- Error -->
+      <div class="error-msg" id="errorMsg">
+        ❌ رقم ID غير موجود، تحقق من الرقم وحاول مجدداً
+      </div>
+
+      <!-- Result -->
+      <div class="result-card" id="resultCard">
+        <div class="agent-header">
+          <div class="avatar">👤</div>
+          <div>
+            <div class="agent-name" id="agentName"></div>
+            <div class="agent-id" id="agentIdDisplay"></div>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <span class="info-label">🏙️ منطقة العمل</span>
+          <span class="info-value" id="resArea"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🪪 رقم الإقامة</span>
+          <span class="info-value" id="resIqama"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">📅 التاريخ</span>
+          <span class="info-value" id="resDate"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">⭐ التصنيف</span>
+          <span class="info-value"
+            ><span class="badge" id="resBadge"></span
+          ></span>
+        </div>
+      </div>
+
+      <div class="footer" id="footerText"></div>
+      <p class="footer">بواسطة Abdelmonem</p>
+    </div>
+
+    <!-- ① بيانات المندوبين — استبدل هذا الملف عند كل تحديث -->
+    <script src="data.js"></script>
+
+    <!-- ② منطق البحث — لا تعدّل هنا إلا إذا أردت تغيير السلوك -->
+    <script>
+      // بناء جدول بحث سريع من مصفوفة AGENTS (معرّفة في data.js)
+      const map = {};
+      AGENTS.forEach((a) => {
+        map[a.id.trim()] = a;
+      });
+
+      // تحديث footer بعدد المندوبين
+      document.getElementById("footerText").textContent =
+        "بيانات " + (AGENTS[0]?.date ?? "") + " · " + AGENTS.length + " مندوب";
+
+      function lookup() {
+        const id = document.getElementById("agentId").value.trim();
+        const card = document.getElementById("resultCard");
+        const err = document.getElementById("errorMsg");
+
+        card.classList.remove("show");
+        err.classList.remove("show");
+
+        if (!id) return;
+
+        const a = map[id];
+        if (!a) {
+          err.classList.add("show");
+          return;
+        }
+
+        document.getElementById("agentName").textContent = a.name || "—";
+        document.getElementById("agentIdDisplay").textContent = "ID: " + a.id;
+        document.getElementById("resArea").textContent = a.area || "—";
+        document.getElementById("resIqama").textContent = a.iqama || "—";
+        document.getElementById("resDate").textContent = a.date || "—";
+
+        const badge = document.getElementById("resBadge");
+        badge.textContent = a.grade;
+        badge.className = "badge badge-" + a.grade;
+
+        card.classList.add("show");
+      }
+
+      function clearResult() {
+        document.getElementById("resultCard").classList.remove("show");
+        document.getElementById("errorMsg").classList.remove("show");
+      }
+    </script>
+  </body>
+</html>

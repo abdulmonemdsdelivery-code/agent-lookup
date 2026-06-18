@@ -1,0 +1,225 @@
+/* ============================================================
+   Agent Lookup — Stylesheet
+   ============================================================ */
+
+/* ---------- Reset & Base ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* ---------- Card ---------- */
+.container {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 36px 28px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Header ---------- */
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.logo {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #718096;
+}
+
+/* ---------- Form ---------- */
+label {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 18px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: inherit;
+  direction: ltr;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
+}
+
+button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 14px;
+  background: linear-gradient(135deg, #2b6cb0, #3182ce);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+button:hover  { opacity: 0.92; }
+button:active { transform: scale(0.98); }
+
+/* ---------- Result Card ---------- */
+.result-card {
+  margin-top: 22px;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+  display: none;
+}
+
+.result-card.show { display: block; }
+
+.agent-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid #e2e8f0;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ebf4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.agent-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a202c;
+  line-height: 1.4;
+}
+
+.agent-id {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 2px;
+  direction: ltr;
+}
+
+/* ---------- Info Rows ---------- */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.info-row:last-child { border-bottom: none; }
+
+.info-label {
+  color: #718096;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info-value {
+  color: #2d3748;
+  font-weight: 600;
+  direction: ltr;
+}
+
+/* ---------- Grade Badge ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.badge-A { background: #c6f6d5; color: #22543d; }
+.badge-B { background: #bee3f8; color: #1a365d; }
+.badge-C { background: #feebc8; color: #7b341e; }
+.badge-D { background: #e9d8fd; color: #44337a; }
+.badge-E { background: #fed7d7; color: #742a2a; }
+.badge-F { background: #e2e8f0; color: #2d3748; }
+
+/* ---------- Error ---------- */
+.error-msg {
+  margin-top: 14px;
+  padding: 13px 16px;
+  background: #fff5f5;
+  border: 1.5px solid #fed7d7;
+  border-radius: 10px;
+  color: #c53030;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  display: none;
+}
+
+.error-msg.show { display: block; }
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 11px;
+  color: #a0aec0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 480px) {
+  .container {
+    padding: 28px 18px;
+  }
+  h1 {
+    font-size: 19px;
+  }
+}
