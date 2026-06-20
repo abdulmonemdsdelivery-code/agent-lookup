@@ -3,7 +3,9 @@
    ============================================================ */
 
 /* ---------- Reset & Base ---------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
-  background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #c70303 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -21,7 +23,7 @@ body {
 
 /* ---------- Card ---------- */
 .container {
-  background: #ffffff;
+  background: #ffffffd3;
   border-radius: 20px;
   padding: 36px 28px;
   width: 100%;
@@ -62,7 +64,7 @@ label {
   margin-bottom: 8px;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   padding: 14px 16px;
   font-size: 18px;
@@ -72,10 +74,12 @@ input[type="text"] {
   letter-spacing: 3px;
   font-family: inherit;
   direction: ltr;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
-input[type="text"]:focus {
+input[type='text']:focus {
   outline: none;
   border-color: #3182ce;
   box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
@@ -85,7 +89,7 @@ button {
   width: 100%;
   margin-top: 14px;
   padding: 14px;
-  background: linear-gradient(135deg, #2b6cb0, #3182ce);
+  background: linear-gradient(135deg, #f5ac37);
   color: #ffffff;
   border: none;
   border-radius: 12px;
@@ -93,11 +97,17 @@ button {
   font-weight: 700;
   cursor: pointer;
   font-family: inherit;
-  transition: opacity 0.2s, transform 0.1s;
+  transition:
+    opacity 0.2s,
+    transform 0.1s;
 }
 
-button:hover  { opacity: 0.92; }
-button:active { transform: scale(0.98); }
+button:hover {
+  opacity: 0.92;
+}
+button:active {
+  transform: scale(0.98);
+}
 
 /* ---------- Result Card ---------- */
 .result-card {
@@ -109,7 +119,9 @@ button:active { transform: scale(0.98); }
   display: none;
 }
 
-.result-card.show { display: block; }
+.result-card.show {
+  display: block;
+}
 
 .agent-header {
   display: flex;
@@ -156,7 +168,9 @@ button:active { transform: scale(0.98); }
   border-bottom: 1px solid #edf2f7;
 }
 
-.info-row:last-child { border-bottom: none; }
+.info-row:last-child {
+  border-bottom: none;
+}
 
 .info-label {
   color: #718096;
@@ -183,12 +197,30 @@ button:active { transform: scale(0.98); }
   font-weight: 800;
 }
 
-.badge-A { background: #c6f6d5; color: #22543d; }
-.badge-B { background: #bee3f8; color: #1a365d; }
-.badge-C { background: #feebc8; color: #7b341e; }
-.badge-D { background: #e9d8fd; color: #44337a; }
-.badge-E { background: #fed7d7; color: #742a2a; }
-.badge-F { background: #e2e8f0; color: #2d3748; }
+.badge-A {
+  background: #c6f6d5;
+  color: #22543d;
+}
+.badge-B {
+  background: #bee3f8;
+  color: #1a365d;
+}
+.badge-C {
+  background: #feebc8;
+  color: #7b341e;
+}
+.badge-D {
+  background: #e9d8fd;
+  color: #44337a;
+}
+.badge-E {
+  background: #fed7d7;
+  color: #742a2a;
+}
+.badge-F {
+  background: #e2e8f0;
+  color: #2d3748;
+}
 
 /* ---------- Error ---------- */
 .error-msg {
@@ -204,7 +236,9 @@ button:active { transform: scale(0.98); }
   display: none;
 }
 
-.error-msg.show { display: block; }
+.error-msg.show {
+  display: block;
+}
 
 /* ---------- Footer ---------- */
 .footer {
