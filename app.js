@@ -51,10 +51,10 @@ function showAgentData(agent) {
   document.getElementById('resVerificationRate').innerText = agent.verification_success_rate;
 
   // إحصائيات الطلبات
-  document.getElementById('resGrossOrders').innerText = agent.gross_orders;
-  document.getElementById('resCompletedOrders').innerText = agent.completed_orders;
-  document.getElementById('resCompletedInTime').innerText = agent.completed_orders_in_time;
-  document.getElementById('resFailedOrders').innerText = agent.failed_orders_by_rider;
+  // document.getElementById('resGrossOrders').innerText = agent.gross_orders;
+  // document.getElementById('resCompletedOrders').innerText = agent.completed_orders;
+  // document.getElementById('resCompletedInTime').innerText = agent.completed_orders_in_time;
+  // document.getElementById('resFailedOrders').innerText = agent.failed_orders_by_rider;
 
   // مؤشرات الأداء
   document.getElementById('resOnTimeScore').innerText = agent.on_time_delivery_score;
