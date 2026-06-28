@@ -50,6 +50,7 @@
           </div>
         </div>
 
+        <!-- البيانات الأساسية -->
         <div class="info-row">
           <span class="info-label">🏙️ منطقة العمل</span>
           <span class="info-value" id="resArea"></span>
@@ -64,9 +65,59 @@
         </div>
         <div class="info-row">
           <span class="info-label">⭐ التصنيف</span>
-          <span class="info-value"
-            ><span class="badge" id="resBadge"></span
-          ></span>
+          <span class="info-value"><span class="badge" id="resBadge"></span></span>
+        </div>
+
+        <!-- فاصل -->
+        <div class="section-title">📊 إحصائيات التحقق</div>
+
+        <div class="info-row">
+          <span class="info-label">🔄 إجمالي طلبات التحقق</span>
+          <span class="info-value" id="resTotalVerification"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">✅ طلبات التحقق الناجحة</span>
+          <span class="info-value" id="resSuccessfulVerification"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">📈 نسبة نجاح التحقق</span>
+          <span class="info-value" id="resVerificationRate"></span>
+        </div>
+
+        <!-- فاصل -->
+        <div class="section-title">📦 إحصائيات الطلبات</div>
+
+        <div class="info-row">
+          <span class="info-label">🛒 إجمالي الطلبات</span>
+          <span class="info-value" id="resGrossOrders"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">✔️ الطلبات المكتملة</span>
+          <span class="info-value" id="resCompletedOrders"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">⏱️ المكتملة في الوقت</span>
+          <span class="info-value" id="resCompletedInTime"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">❌ الطلبات الفاشلة</span>
+          <span class="info-value" id="resFailedOrders"></span>
+        </div>
+
+        <!-- فاصل -->
+        <div class="section-title">🏆 مؤشرات الأداء</div>
+
+        <div class="info-row">
+          <span class="info-label">🕐 نسبة التسليم في الوقت</span>
+          <span class="info-value" id="resOnTimeScore"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">📉 نسبة الفشل</span>
+          <span class="info-value" id="resFailRateScore"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🎯 جودة التسليم النهائية</span>
+          <span class="info-value" id="resFinalScore"></span>
         </div>
       </div>
 
