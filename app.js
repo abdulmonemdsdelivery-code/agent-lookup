@@ -39,6 +39,7 @@ function showAgentData(agent) {
   document.getElementById('resArea').innerText = agent.area;
   document.getElementById('resIqama').innerText = agent.iqama;
   document.getElementById('resDate').innerText = agent.date;
+  document.getElementById('contract_name').innerText = agent.contract_name;
 
   // التصنيف
   const badge = document.getElementById('resBadge');
