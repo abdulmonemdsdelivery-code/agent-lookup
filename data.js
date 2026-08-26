@@ -7040,5 +7040,3 @@ const AGENTS = [
     payable_km: '1651.66',
   },
 ];
-
-export default AGENTS;
