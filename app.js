@@ -68,7 +68,6 @@ function showAgentData(agent) {
 
   // مؤشرات الأداء
   document.getElementById('resOnTimeScore').innerText = agent.on_time_delivery_score;
-  document.getElementById('resFailRateScore').innerText = agent.fail_rate_score;
   document.getElementById('resFinalScore').innerText = agent.final_delivery_quality_score;
 
   document.getElementById('resultCard').classList.add('show');
