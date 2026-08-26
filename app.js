@@ -52,10 +52,19 @@ function showAgentData(agent) {
   document.getElementById('resVerificationRate').innerText = agent.verification_success_rate;
 
   // إحصائيات الطلبات
-  // document.getElementById('resGrossOrders').innerText = agent.gross_orders;
-  // document.getElementById('resCompletedOrders').innerText = agent.completed_orders;
-  // document.getElementById('resCompletedInTime').innerText = agent.completed_orders_in_time;
-  // document.getElementById('resFailedOrders').innerText = agent.failed_orders_by_rider;
+  document.getElementById('resGrossOrders').innerText = agent.gross_orders;
+  document.getElementById('resCompletedOrders').innerText = agent.completed_orders;
+  document.getElementById('resCompletedInTime').innerText = agent.completed_orders_in_time;
+  document.getElementById('resFailedOrders').innerText = agent.failed_orders_by_rider;
+
+  // المسافة المدفوعة (كم) - تظهر بس لو موجودة في بيانات المندوب
+  const payableRow = document.getElementById('rowPayableKm');
+  if (agent.payable_km !== undefined && agent.payable_km !== '') {
+    document.getElementById('resPayableKm').innerText = agent.payable_km;
+    payableRow.style.display = '';
+  } else {
+    payableRow.style.display = 'none';
+  }
 
   // مؤشرات الأداء
   document.getElementById('resOnTimeScore').innerText = agent.on_time_delivery_score;
