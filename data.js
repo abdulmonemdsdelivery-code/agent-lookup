@@ -17,6 +17,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '22.17',
   },
   {
     id: '1964030',
@@ -36,6 +37,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '6.19',
   },
   {
     id: '1819562',
@@ -55,6 +57,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '708.95',
   },
   {
     id: '1055108',
@@ -74,6 +77,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '10.53',
   },
   {
     id: '2155630',
@@ -93,6 +97,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '146.42',
   },
   {
     id: '1151689',
@@ -112,6 +117,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '5.38',
   },
   {
     id: '589126',
@@ -131,6 +137,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '9.31',
   },
   {
     id: '528124',
@@ -150,6 +157,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '7.86',
   },
   {
     id: '2138846',
@@ -169,6 +177,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '100%',
+    payable_km: '21.78',
   },
   {
     id: '1962296',
@@ -188,6 +197,7 @@ const AGENTS = [
     on_time_delivery_score: '99.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.8%',
+    payable_km: '1033.57',
   },
   {
     id: '2112724',
@@ -207,6 +217,7 @@ const AGENTS = [
     on_time_delivery_score: '99.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.7%',
+    payable_km: '2161.24',
   },
   {
     id: '330947',
@@ -226,6 +237,7 @@ const AGENTS = [
     on_time_delivery_score: '99.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.6%',
+    payable_km: '3133.74',
   },
   {
     id: '422528',
@@ -245,6 +257,7 @@ const AGENTS = [
     on_time_delivery_score: '98.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.4%',
+    payable_km: '3057.23',
   },
   {
     id: '1642364',
@@ -264,6 +277,7 @@ const AGENTS = [
     on_time_delivery_score: '99.1%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '99.4%',
+    payable_km: '2027.64',
   },
   {
     id: '2072513',
@@ -283,6 +297,7 @@ const AGENTS = [
     on_time_delivery_score: '98.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.4%',
+    payable_km: '3613.26',
   },
   {
     id: '534895',
@@ -302,6 +317,7 @@ const AGENTS = [
     on_time_delivery_score: '98.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '1521.28',
   },
   {
     id: '2033306',
@@ -321,6 +337,7 @@ const AGENTS = [
     on_time_delivery_score: '98.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '2967.69',
   },
   {
     id: '647107',
@@ -340,6 +357,7 @@ const AGENTS = [
     on_time_delivery_score: '98.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '2790.79',
   },
   {
     id: '2159849',
@@ -359,6 +377,7 @@ const AGENTS = [
     on_time_delivery_score: '98.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '867.16',
   },
   {
     id: '2415297',
@@ -378,6 +397,7 @@ const AGENTS = [
     on_time_delivery_score: '98.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '1125.77',
   },
   {
     id: '2143126',
@@ -397,6 +417,7 @@ const AGENTS = [
     on_time_delivery_score: '98.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.3%',
+    payable_km: '2486.31',
   },
   {
     id: '1498511',
@@ -416,6 +437,7 @@ const AGENTS = [
     on_time_delivery_score: '98.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.2%',
+    payable_km: '478.64',
   },
   {
     id: '422878',
@@ -435,6 +457,7 @@ const AGENTS = [
     on_time_delivery_score: '98.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.2%',
+    payable_km: '523.60',
   },
   {
     id: '1981129',
@@ -454,6 +477,7 @@ const AGENTS = [
     on_time_delivery_score: '98.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.2%',
+    payable_km: '3013.87',
   },
   {
     id: '454994',
@@ -473,6 +497,7 @@ const AGENTS = [
     on_time_delivery_score: '98.5%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '1673.65',
   },
   {
     id: '1895222',
@@ -492,6 +517,7 @@ const AGENTS = [
     on_time_delivery_score: '98.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '981.60',
   },
   {
     id: '558814',
@@ -511,6 +537,7 @@ const AGENTS = [
     on_time_delivery_score: '98.4%',
     fail_rate_score: '99.9%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '3202.97',
   },
   {
     id: '598251',
@@ -530,6 +557,7 @@ const AGENTS = [
     on_time_delivery_score: '98.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '1704.00',
   },
   {
     id: '2068624',
@@ -549,6 +577,7 @@ const AGENTS = [
     on_time_delivery_score: '98.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '2872.01',
   },
   {
     id: '1983114',
@@ -568,6 +597,7 @@ const AGENTS = [
     on_time_delivery_score: '98.4%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '1906.19',
   },
   {
     id: '2168004',
@@ -587,6 +617,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '4294.50',
   },
   {
     id: '2138853',
@@ -606,6 +637,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '2907.99',
   },
   {
     id: '2192895',
@@ -625,6 +657,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99.1%',
+    payable_km: '2460.00',
   },
   {
     id: '202115',
@@ -644,6 +677,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2043.72',
   },
   {
     id: '558913',
@@ -663,6 +697,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2034.80',
   },
   {
     id: '594065',
@@ -682,6 +717,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '3002.52',
   },
   {
     id: '1053941',
@@ -701,6 +737,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2603.87',
   },
   {
     id: '1643284',
@@ -720,6 +757,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '917.78',
   },
   {
     id: '2185247',
@@ -739,6 +777,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2315.26',
   },
   {
     id: '2101087',
@@ -758,6 +797,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '1927.33',
   },
   {
     id: '1498471',
@@ -777,6 +817,7 @@ const AGENTS = [
     on_time_delivery_score: '98.1%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '99%',
+    payable_km: '2963.33',
   },
   {
     id: '2101230',
@@ -796,6 +837,7 @@ const AGENTS = [
     on_time_delivery_score: '97.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '1700.03',
   },
   {
     id: '2189186',
@@ -815,6 +857,7 @@ const AGENTS = [
     on_time_delivery_score: '97.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2070.13',
   },
   {
     id: '2189544',
@@ -834,6 +877,7 @@ const AGENTS = [
     on_time_delivery_score: '97.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '99%',
+    payable_km: '2059.90',
   },
   {
     id: '1238901',
@@ -853,6 +897,7 @@ const AGENTS = [
     on_time_delivery_score: '97.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.9%',
+    payable_km: '2387.74',
   },
   {
     id: '220572',
@@ -872,6 +917,7 @@ const AGENTS = [
     on_time_delivery_score: '97.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.9%',
+    payable_km: '2020.97',
   },
   {
     id: '2075802',
@@ -891,6 +937,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.9%',
+    payable_km: '2990.06',
   },
   {
     id: '2185282',
@@ -910,6 +957,7 @@ const AGENTS = [
     on_time_delivery_score: '98%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '98.9%',
+    payable_km: '2899.63',
   },
   {
     id: '616344',
@@ -929,6 +977,7 @@ const AGENTS = [
     on_time_delivery_score: '97.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.9%',
+    payable_km: '3753.42',
   },
   {
     id: '2033362',
@@ -948,6 +997,7 @@ const AGENTS = [
     on_time_delivery_score: '97.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.8%',
+    payable_km: '2543.05',
   },
   {
     id: '1860093',
@@ -967,6 +1017,7 @@ const AGENTS = [
     on_time_delivery_score: '97.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.8%',
+    payable_km: '2361.44',
   },
   {
     id: '1062300',
@@ -986,6 +1037,7 @@ const AGENTS = [
     on_time_delivery_score: '97.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.8%',
+    payable_km: '2240.53',
   },
   {
     id: '2024474',
@@ -1005,6 +1057,7 @@ const AGENTS = [
     on_time_delivery_score: '97.7%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.8%',
+    payable_km: '2715.92',
   },
   {
     id: '1659492',
@@ -1024,6 +1077,7 @@ const AGENTS = [
     on_time_delivery_score: '97.7%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '2674.10',
   },
   {
     id: '602550',
@@ -1043,6 +1097,7 @@ const AGENTS = [
     on_time_delivery_score: '97.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '3038.67',
   },
   {
     id: '1959187',
@@ -1062,6 +1117,7 @@ const AGENTS = [
     on_time_delivery_score: '97.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '2655.24',
   },
   {
     id: '2155644',
@@ -1081,6 +1137,7 @@ const AGENTS = [
     on_time_delivery_score: '97.5%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '2731.56',
   },
   {
     id: '2086163',
@@ -1100,6 +1157,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '4192.55',
   },
   {
     id: '2119303',
@@ -1119,6 +1177,7 @@ const AGENTS = [
     on_time_delivery_score: '97.5%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '2573.76',
   },
   {
     id: '2478070',
@@ -1138,6 +1197,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '1876.16',
   },
   {
     id: '2156810',
@@ -1157,6 +1217,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.7%',
+    payable_km: '2279.47',
   },
   {
     id: '1204096',
@@ -1176,6 +1237,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '1356.41',
   },
   {
     id: '2073525',
@@ -1195,6 +1257,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '3740.38',
   },
   {
     id: '2167231',
@@ -1214,6 +1277,7 @@ const AGENTS = [
     on_time_delivery_score: '97.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '1414.97',
   },
   {
     id: '1481075',
@@ -1233,6 +1297,7 @@ const AGENTS = [
     on_time_delivery_score: '97.4%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '2619.93',
   },
   {
     id: '1080679',
@@ -1252,6 +1317,7 @@ const AGENTS = [
     on_time_delivery_score: '97.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '1971.89',
   },
   {
     id: '1910589',
@@ -1271,6 +1337,7 @@ const AGENTS = [
     on_time_delivery_score: '97.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '3158.38',
   },
   {
     id: '1855818',
@@ -1290,6 +1357,7 @@ const AGENTS = [
     on_time_delivery_score: '97.4%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '2036.89',
   },
   {
     id: '1629269',
@@ -1309,6 +1377,7 @@ const AGENTS = [
     on_time_delivery_score: '97.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '3282.25',
   },
   {
     id: '617112',
@@ -1328,6 +1397,7 @@ const AGENTS = [
     on_time_delivery_score: '97.3%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.6%',
+    payable_km: '2090.88',
   },
   {
     id: '967212',
@@ -1347,6 +1417,7 @@ const AGENTS = [
     on_time_delivery_score: '97.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.5%',
+    payable_km: '2781.23',
   },
   {
     id: '2188449',
@@ -1366,6 +1437,7 @@ const AGENTS = [
     on_time_delivery_score: '97.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.5%',
+    payable_km: '2495.95',
   },
   {
     id: '2092811',
@@ -1385,6 +1457,7 @@ const AGENTS = [
     on_time_delivery_score: '97%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.5%',
+    payable_km: '1203.14',
   },
   {
     id: '1985713',
@@ -1404,6 +1477,7 @@ const AGENTS = [
     on_time_delivery_score: '97%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.5%',
+    payable_km: '3729.68',
   },
   {
     id: '1594420',
@@ -1423,6 +1497,7 @@ const AGENTS = [
     on_time_delivery_score: '96.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.4%',
+    payable_km: '1774.02',
   },
   {
     id: '280230',
@@ -1442,6 +1517,7 @@ const AGENTS = [
     on_time_delivery_score: '96.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.4%',
+    payable_km: '1417.78',
   },
   {
     id: '2027977',
@@ -1461,6 +1537,7 @@ const AGENTS = [
     on_time_delivery_score: '97%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.4%',
+    payable_km: '2181.22',
   },
   {
     id: '308946',
@@ -1480,6 +1557,7 @@ const AGENTS = [
     on_time_delivery_score: '96.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.3%',
+    payable_km: '2448.98',
   },
   {
     id: '2192700',
@@ -1499,6 +1577,7 @@ const AGENTS = [
     on_time_delivery_score: '96.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.3%',
+    payable_km: '2127.76',
   },
   {
     id: '1493204',
@@ -1518,6 +1597,7 @@ const AGENTS = [
     on_time_delivery_score: '96.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.3%',
+    payable_km: '1446.99',
   },
   {
     id: '2075203',
@@ -1537,6 +1617,7 @@ const AGENTS = [
     on_time_delivery_score: '96.8%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.3%',
+    payable_km: '2447.59',
   },
   {
     id: '2091211',
@@ -1556,6 +1637,7 @@ const AGENTS = [
     on_time_delivery_score: '96.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.3%',
+    payable_km: '764.18',
   },
   {
     id: '1944164',
@@ -1575,6 +1657,7 @@ const AGENTS = [
     on_time_delivery_score: '96.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '2919.65',
   },
   {
     id: '1609811',
@@ -1594,6 +1677,7 @@ const AGENTS = [
     on_time_delivery_score: '96.9%',
     fail_rate_score: '99.6%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '1074.26',
   },
   {
     id: '2077454',
@@ -1613,6 +1697,7 @@ const AGENTS = [
     on_time_delivery_score: '96.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '3015.83',
   },
   {
     id: '2074650',
@@ -1632,6 +1717,7 @@ const AGENTS = [
     on_time_delivery_score: '96.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '4371.66',
   },
   {
     id: '2073291',
@@ -1651,6 +1737,7 @@ const AGENTS = [
     on_time_delivery_score: '96.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '2171.07',
   },
   {
     id: '2260065',
@@ -1670,6 +1757,7 @@ const AGENTS = [
     on_time_delivery_score: '96.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '2826.47',
   },
   {
     id: '601295',
@@ -1689,6 +1777,7 @@ const AGENTS = [
     on_time_delivery_score: '96.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '3134.75',
   },
   {
     id: '2103840',
@@ -1708,6 +1797,7 @@ const AGENTS = [
     on_time_delivery_score: '96.6%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '2895.50',
   },
   {
     id: '319171',
@@ -1727,6 +1817,7 @@ const AGENTS = [
     on_time_delivery_score: '96.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.2%',
+    payable_km: '1779.44',
   },
   {
     id: '1880356',
@@ -1746,6 +1837,7 @@ const AGENTS = [
     on_time_delivery_score: '100%',
     fail_rate_score: '96.3%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '79.72',
   },
   {
     id: '1287501',
@@ -1765,6 +1857,7 @@ const AGENTS = [
     on_time_delivery_score: '96.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '1467.04',
   },
   {
     id: '296629',
@@ -1784,6 +1877,7 @@ const AGENTS = [
     on_time_delivery_score: '96.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '2330.72',
   },
   {
     id: '2134485',
@@ -1803,6 +1897,7 @@ const AGENTS = [
     on_time_delivery_score: '96.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '1377.63',
   },
   {
     id: '297456',
@@ -1822,6 +1917,7 @@ const AGENTS = [
     on_time_delivery_score: '96.4%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '3439.03',
   },
   {
     id: '297742',
@@ -1841,6 +1937,7 @@ const AGENTS = [
     on_time_delivery_score: '96.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '113.64',
   },
   {
     id: '1149351',
@@ -1860,6 +1957,7 @@ const AGENTS = [
     on_time_delivery_score: '96.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98.1%',
+    payable_km: '572.09',
   },
   {
     id: '1872925',
@@ -1879,6 +1977,7 @@ const AGENTS = [
     on_time_delivery_score: '96.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98%',
+    payable_km: '331.56',
   },
   {
     id: '1718068',
@@ -1898,6 +1997,7 @@ const AGENTS = [
     on_time_delivery_score: '96%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98%',
+    payable_km: '78.05',
   },
   {
     id: '1880874',
@@ -1917,6 +2017,7 @@ const AGENTS = [
     on_time_delivery_score: '96%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98%',
+    payable_km: '3056.01',
   },
   {
     id: '2073866',
@@ -1936,6 +2037,7 @@ const AGENTS = [
     on_time_delivery_score: '96%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '98%',
+    payable_km: '1273.28',
   },
   {
     id: '809989',
@@ -1955,6 +2057,7 @@ const AGENTS = [
     on_time_delivery_score: '95.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '1689.80',
   },
   {
     id: '1971751',
@@ -1974,6 +2077,7 @@ const AGENTS = [
     on_time_delivery_score: '95.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '3206.32',
   },
   {
     id: '1519986',
@@ -1993,6 +2097,7 @@ const AGENTS = [
     on_time_delivery_score: '96.2%',
     fail_rate_score: '99.6%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '2443.35',
   },
   {
     id: '2103990',
@@ -2012,6 +2117,7 @@ const AGENTS = [
     on_time_delivery_score: '95.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '2215.31',
   },
   {
     id: '2489346',
@@ -2031,6 +2137,7 @@ const AGENTS = [
     on_time_delivery_score: '95.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '2641.60',
   },
   {
     id: '2121554',
@@ -2050,6 +2157,7 @@ const AGENTS = [
     on_time_delivery_score: '95.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '4074.31',
   },
   {
     id: '2156927',
@@ -2069,6 +2177,7 @@ const AGENTS = [
     on_time_delivery_score: '95.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '1698.07',
   },
   {
     id: '1202922',
@@ -2088,6 +2197,7 @@ const AGENTS = [
     on_time_delivery_score: '96%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '97.9%',
+    payable_km: '2838.46',
   },
   {
     id: '2009443',
@@ -2107,6 +2217,7 @@ const AGENTS = [
     on_time_delivery_score: '95.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '1622.91',
   },
   {
     id: '1417038',
@@ -2126,6 +2237,7 @@ const AGENTS = [
     on_time_delivery_score: '95.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '3642.80',
   },
   {
     id: '127584',
@@ -2145,6 +2257,7 @@ const AGENTS = [
     on_time_delivery_score: '95.9%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '2134.03',
   },
   {
     id: '2038578',
@@ -2164,6 +2277,7 @@ const AGENTS = [
     on_time_delivery_score: '95.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '3143.00',
   },
   {
     id: '2166130',
@@ -2183,6 +2297,7 @@ const AGENTS = [
     on_time_delivery_score: '95.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '1873.72',
   },
   {
     id: '1999026',
@@ -2202,6 +2317,7 @@ const AGENTS = [
     on_time_delivery_score: '95.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '1930.75',
   },
   {
     id: '2067456',
@@ -2221,6 +2337,7 @@ const AGENTS = [
     on_time_delivery_score: '95.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '1409.03',
   },
   {
     id: '791256',
@@ -2240,6 +2357,7 @@ const AGENTS = [
     on_time_delivery_score: '95.7%',
     fail_rate_score: '99.9%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '2856.55',
   },
   {
     id: '1731500',
@@ -2259,6 +2377,7 @@ const AGENTS = [
     on_time_delivery_score: '96%',
     fail_rate_score: '99.5%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '3169.72',
   },
   {
     id: '1779514',
@@ -2278,6 +2397,7 @@ const AGENTS = [
     on_time_delivery_score: '95.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '2676.07',
   },
   {
     id: '2218391',
@@ -2297,6 +2417,7 @@ const AGENTS = [
     on_time_delivery_score: '95.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.8%',
+    payable_km: '2291.31',
   },
   {
     id: '2101141',
@@ -2316,6 +2437,7 @@ const AGENTS = [
     on_time_delivery_score: '95.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.7%',
+    payable_km: '591.81',
   },
   {
     id: '1301543',
@@ -2335,6 +2457,7 @@ const AGENTS = [
     on_time_delivery_score: '95.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.7%',
+    payable_km: '2739.58',
   },
   {
     id: '1161756',
@@ -2354,6 +2477,7 @@ const AGENTS = [
     on_time_delivery_score: '95.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.7%',
+    payable_km: '1349.63',
   },
   {
     id: '1932824',
@@ -2373,6 +2497,7 @@ const AGENTS = [
     on_time_delivery_score: '95.5%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.7%',
+    payable_km: '3054.78',
   },
   {
     id: '1880879',
@@ -2392,6 +2517,7 @@ const AGENTS = [
     on_time_delivery_score: '95.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '2860.09',
   },
   {
     id: '1066068',
@@ -2411,6 +2537,7 @@ const AGENTS = [
     on_time_delivery_score: '95.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '1894.73',
   },
   {
     id: '1951821',
@@ -2430,6 +2557,7 @@ const AGENTS = [
     on_time_delivery_score: '95.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '1592.32',
   },
   {
     id: '2091702',
@@ -2449,6 +2577,7 @@ const AGENTS = [
     on_time_delivery_score: '95.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '1733.07',
   },
   {
     id: '2145279',
@@ -2468,6 +2597,7 @@ const AGENTS = [
     on_time_delivery_score: '95.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '2306.39',
   },
   {
     id: '2181158',
@@ -2487,6 +2617,7 @@ const AGENTS = [
     on_time_delivery_score: '95.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '1712.16',
   },
   {
     id: '1453250',
@@ -2506,6 +2637,7 @@ const AGENTS = [
     on_time_delivery_score: '95.3%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.6%',
+    payable_km: '2707.93',
   },
   {
     id: '906887',
@@ -2525,6 +2657,7 @@ const AGENTS = [
     on_time_delivery_score: '95.3%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '1806.39',
   },
   {
     id: '2465214',
@@ -2544,6 +2677,7 @@ const AGENTS = [
     on_time_delivery_score: '95.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '2989.45',
   },
   {
     id: '272572',
@@ -2563,6 +2697,7 @@ const AGENTS = [
     on_time_delivery_score: '95%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '3373.31',
   },
   {
     id: '663036',
@@ -2582,6 +2717,7 @@ const AGENTS = [
     on_time_delivery_score: '95%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '770.72',
   },
   {
     id: '2043686',
@@ -2601,6 +2737,7 @@ const AGENTS = [
     on_time_delivery_score: '94.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '1634.74',
   },
   {
     id: '641250',
@@ -2620,6 +2757,7 @@ const AGENTS = [
     on_time_delivery_score: '94.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.5%',
+    payable_km: '2798.44',
   },
   {
     id: '601016',
@@ -2639,6 +2777,7 @@ const AGENTS = [
     on_time_delivery_score: '94.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '3558.32',
   },
   {
     id: '1777700',
@@ -2658,6 +2797,7 @@ const AGENTS = [
     on_time_delivery_score: '94.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '2258.14',
   },
   {
     id: '2137794',
@@ -2677,6 +2817,7 @@ const AGENTS = [
     on_time_delivery_score: '94.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '3938.10',
   },
   {
     id: '457600',
@@ -2696,6 +2837,7 @@ const AGENTS = [
     on_time_delivery_score: '94.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '1642.90',
   },
   {
     id: '526666',
@@ -2715,6 +2857,7 @@ const AGENTS = [
     on_time_delivery_score: '95%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '1894.20',
   },
   {
     id: '1557368',
@@ -2734,6 +2877,7 @@ const AGENTS = [
     on_time_delivery_score: '94.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.4%',
+    payable_km: '206.20',
   },
   {
     id: '690736',
@@ -2753,6 +2897,7 @@ const AGENTS = [
     on_time_delivery_score: '94.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '735.07',
   },
   {
     id: '105695',
@@ -2772,6 +2917,7 @@ const AGENTS = [
     on_time_delivery_score: '94.9%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '1606.48',
   },
   {
     id: '426844',
@@ -2791,6 +2937,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '2275.86',
   },
   {
     id: '2110096',
@@ -2810,6 +2957,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '3657.14',
   },
   {
     id: '2018428',
@@ -2829,6 +2977,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '1302.69',
   },
   {
     id: '85344',
@@ -2848,6 +2997,7 @@ const AGENTS = [
     on_time_delivery_score: '94.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '1631.13',
   },
   {
     id: '2099179',
@@ -2867,6 +3017,7 @@ const AGENTS = [
     on_time_delivery_score: '94.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '1015.06',
   },
   {
     id: '654590',
@@ -2886,6 +3037,7 @@ const AGENTS = [
     on_time_delivery_score: '94.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '2026.06',
   },
   {
     id: '1365479',
@@ -2905,6 +3057,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '99.9%',
     final_delivery_quality_score: '97.3%',
+    payable_km: '2849.13',
   },
   {
     id: '2447656',
@@ -2924,6 +3077,7 @@ const AGENTS = [
     on_time_delivery_score: '94.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '3132.19',
   },
   {
     id: '1243992',
@@ -2943,6 +3097,7 @@ const AGENTS = [
     on_time_delivery_score: '94.7%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '2449.60',
   },
   {
     id: '1448307',
@@ -2962,6 +3117,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '1845.11',
   },
   {
     id: '2115576',
@@ -2981,6 +3137,7 @@ const AGENTS = [
     on_time_delivery_score: '94.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '2495.24',
   },
   {
     id: '2516770',
@@ -3000,6 +3157,7 @@ const AGENTS = [
     on_time_delivery_score: '94.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '2924.44',
   },
   {
     id: '83966',
@@ -3019,6 +3177,7 @@ const AGENTS = [
     on_time_delivery_score: '94.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '631.22',
   },
   {
     id: '330384',
@@ -3038,6 +3197,7 @@ const AGENTS = [
     on_time_delivery_score: '94.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '275.29',
   },
   {
     id: '1758317',
@@ -3057,6 +3217,7 @@ const AGENTS = [
     on_time_delivery_score: '94.6%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '1441.34',
   },
   {
     id: '1796596',
@@ -3076,6 +3237,7 @@ const AGENTS = [
     on_time_delivery_score: '94.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '2225.37',
   },
   {
     id: '2272526',
@@ -3095,6 +3257,7 @@ const AGENTS = [
     on_time_delivery_score: '94.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '2741.73',
   },
   {
     id: '1440621',
@@ -3114,6 +3277,7 @@ const AGENTS = [
     on_time_delivery_score: '94.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.2%',
+    payable_km: '1679.84',
   },
   {
     id: '2169733',
@@ -3133,6 +3297,7 @@ const AGENTS = [
     on_time_delivery_score: '94.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '1585.55',
   },
   {
     id: '1759706',
@@ -3152,6 +3317,7 @@ const AGENTS = [
     on_time_delivery_score: '94.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '1188.70',
   },
   {
     id: '1366908',
@@ -3171,6 +3337,7 @@ const AGENTS = [
     on_time_delivery_score: '94.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '970.76',
   },
   {
     id: '1714752',
@@ -3190,6 +3357,7 @@ const AGENTS = [
     on_time_delivery_score: '94.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '1730.16',
   },
   {
     id: '607041',
@@ -3209,6 +3377,7 @@ const AGENTS = [
     on_time_delivery_score: '94.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '2937.92',
   },
   {
     id: '2172624',
@@ -3228,6 +3397,7 @@ const AGENTS = [
     on_time_delivery_score: '94.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '89.88',
   },
   {
     id: '2024467',
@@ -3247,6 +3417,7 @@ const AGENTS = [
     on_time_delivery_score: '94.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97.1%',
+    payable_km: '1991.42',
   },
   {
     id: '252846',
@@ -3266,6 +3437,7 @@ const AGENTS = [
     on_time_delivery_score: '94.4%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '97%',
+    payable_km: '2690.10',
   },
   {
     id: '2105548',
@@ -3285,6 +3457,7 @@ const AGENTS = [
     on_time_delivery_score: '94%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97%',
+    payable_km: '1554.33',
   },
   {
     id: '243396',
@@ -3304,6 +3477,7 @@ const AGENTS = [
     on_time_delivery_score: '94%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97%',
+    payable_km: '4269.22',
   },
   {
     id: '2105567',
@@ -3323,6 +3497,7 @@ const AGENTS = [
     on_time_delivery_score: '94%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '97%',
+    payable_km: '567.59',
   },
   {
     id: '590974',
@@ -3342,6 +3517,7 @@ const AGENTS = [
     on_time_delivery_score: '93.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '277.22',
   },
   {
     id: '2075735',
@@ -3361,6 +3537,7 @@ const AGENTS = [
     on_time_delivery_score: '93.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '566.74',
   },
   {
     id: '1632251',
@@ -3380,6 +3557,7 @@ const AGENTS = [
     on_time_delivery_score: '93.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '876.11',
   },
   {
     id: '1315320',
@@ -3399,6 +3577,7 @@ const AGENTS = [
     on_time_delivery_score: '93.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '3007.46',
   },
   {
     id: '2221852',
@@ -3418,6 +3597,7 @@ const AGENTS = [
     on_time_delivery_score: '93.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '1950.54',
   },
   {
     id: '1888290',
@@ -3437,6 +3617,7 @@ const AGENTS = [
     on_time_delivery_score: '93.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.9%',
+    payable_km: '1774.02',
   },
   {
     id: '1797326',
@@ -3456,6 +3637,7 @@ const AGENTS = [
     on_time_delivery_score: '94.2%',
     fail_rate_score: '99.5%',
     final_delivery_quality_score: '96.8%',
+    payable_km: '1867.59',
   },
   {
     id: '991553',
@@ -3475,6 +3657,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.8%',
+    payable_km: '3311.16',
   },
   {
     id: '1955322',
@@ -3494,6 +3677,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.8%',
+    payable_km: '1703.62',
   },
   {
     id: '1044433',
@@ -3513,6 +3697,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.8%',
+    payable_km: '1086.81',
   },
   {
     id: '102514',
@@ -3532,6 +3717,7 @@ const AGENTS = [
     on_time_delivery_score: '93.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.8%',
+    payable_km: '1559.31',
   },
   {
     id: '2121536',
@@ -3571,6 +3757,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '2789.29',
   },
   {
     id: '601906',
@@ -3590,6 +3777,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '99.9%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '4322.56',
   },
   {
     id: '1139935',
@@ -3609,6 +3797,7 @@ const AGENTS = [
     on_time_delivery_score: '93.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '4573.32',
   },
   {
     id: '1396519',
@@ -3628,6 +3817,7 @@ const AGENTS = [
     on_time_delivery_score: '93.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '2968.31',
   },
   {
     id: '2033277',
@@ -3647,6 +3837,7 @@ const AGENTS = [
     on_time_delivery_score: '93.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '1653.70',
   },
   {
     id: '2106658',
@@ -3666,6 +3857,7 @@ const AGENTS = [
     on_time_delivery_score: '93.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.7%',
+    payable_km: '1992.25',
   },
   {
     id: '226524',
@@ -3685,6 +3877,7 @@ const AGENTS = [
     on_time_delivery_score: '93.6%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '96.6%',
+    payable_km: '2951.36',
   },
   {
     id: '2168553',
@@ -3704,6 +3897,7 @@ const AGENTS = [
     on_time_delivery_score: '93.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.6%',
+    payable_km: '1954.39',
   },
   {
     id: '1903250',
@@ -3723,6 +3917,7 @@ const AGENTS = [
     on_time_delivery_score: '93%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2283.45',
   },
   {
     id: '2075772',
@@ -3742,6 +3937,7 @@ const AGENTS = [
     on_time_delivery_score: '93%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2075.98',
   },
   {
     id: '2018910',
@@ -3761,6 +3957,7 @@ const AGENTS = [
     on_time_delivery_score: '93.2%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2149.89',
   },
   {
     id: '827248',
@@ -3780,6 +3977,7 @@ const AGENTS = [
     on_time_delivery_score: '93%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2005.52',
   },
   {
     id: '2010634',
@@ -3799,6 +3997,7 @@ const AGENTS = [
     on_time_delivery_score: '92.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2342.90',
   },
   {
     id: '1991957',
@@ -3818,6 +4017,7 @@ const AGENTS = [
     on_time_delivery_score: '92.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '2444.48',
   },
   {
     id: '2045824',
@@ -3837,6 +4037,7 @@ const AGENTS = [
     on_time_delivery_score: '92.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.5%',
+    payable_km: '968.80',
   },
   {
     id: '1604576',
@@ -3856,6 +4057,7 @@ const AGENTS = [
     on_time_delivery_score: '93.1%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '96.4%',
+    payable_km: '2163.29',
   },
   {
     id: '2121387',
@@ -3875,6 +4077,7 @@ const AGENTS = [
     on_time_delivery_score: '92.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.4%',
+    payable_km: '1747.99',
   },
   {
     id: '2183225',
@@ -3894,6 +4097,7 @@ const AGENTS = [
     on_time_delivery_score: '92.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.4%',
+    payable_km: '1596.89',
   },
   {
     id: '1558760',
@@ -3913,6 +4117,7 @@ const AGENTS = [
     on_time_delivery_score: '92.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.3%',
+    payable_km: '2060.52',
   },
   {
     id: '1983759',
@@ -3932,6 +4137,7 @@ const AGENTS = [
     on_time_delivery_score: '92.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.3%',
+    payable_km: '1794.04',
   },
   {
     id: '2187798',
@@ -3951,6 +4157,7 @@ const AGENTS = [
     on_time_delivery_score: '92.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.3%',
+    payable_km: '1692.50',
   },
   {
     id: '2070896',
@@ -3970,6 +4177,7 @@ const AGENTS = [
     on_time_delivery_score: '92.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.3%',
+    payable_km: '3324.91',
   },
   {
     id: '1537042',
@@ -3989,6 +4197,7 @@ const AGENTS = [
     on_time_delivery_score: '92.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.3%',
+    payable_km: '1392.31',
   },
   {
     id: '2426195',
@@ -4008,6 +4217,7 @@ const AGENTS = [
     on_time_delivery_score: '92.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '1145.43',
   },
   {
     id: '105011',
@@ -4027,6 +4237,7 @@ const AGENTS = [
     on_time_delivery_score: '92.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '1826.49',
   },
   {
     id: '800673',
@@ -4046,6 +4257,7 @@ const AGENTS = [
     on_time_delivery_score: '92.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '2767.32',
   },
   {
     id: '658457',
@@ -4065,6 +4277,7 @@ const AGENTS = [
     on_time_delivery_score: '92.8%',
     fail_rate_score: '99.6%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '1460.28',
   },
   {
     id: '1738896',
@@ -4084,6 +4297,7 @@ const AGENTS = [
     on_time_delivery_score: '92.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '2514.68',
   },
   {
     id: '2427491',
@@ -4103,6 +4317,7 @@ const AGENTS = [
     on_time_delivery_score: '92.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '3414.78',
   },
   {
     id: '2108686',
@@ -4122,6 +4337,7 @@ const AGENTS = [
     on_time_delivery_score: '92.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '74.09',
   },
   {
     id: '2054672',
@@ -4141,6 +4357,7 @@ const AGENTS = [
     on_time_delivery_score: '92.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.2%',
+    payable_km: '57.36',
   },
   {
     id: '2114813',
@@ -4160,6 +4377,7 @@ const AGENTS = [
     on_time_delivery_score: '92.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.1%',
+    payable_km: '1849.84',
   },
   {
     id: '2017994',
@@ -4179,6 +4397,7 @@ const AGENTS = [
     on_time_delivery_score: '92.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.1%',
+    payable_km: '1651.10',
   },
   {
     id: '287326',
@@ -4198,6 +4417,7 @@ const AGENTS = [
     on_time_delivery_score: '92.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96.1%',
+    payable_km: '2809.47',
   },
   {
     id: '1605913',
@@ -4217,6 +4437,7 @@ const AGENTS = [
     on_time_delivery_score: '92.2%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '96%',
+    payable_km: '2595.58',
   },
   {
     id: '586819',
@@ -4236,6 +4457,7 @@ const AGENTS = [
     on_time_delivery_score: '92%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96%',
+    payable_km: '127.00',
   },
   {
     id: '2012408',
@@ -4255,6 +4477,7 @@ const AGENTS = [
     on_time_delivery_score: '92%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96%',
+    payable_km: '296.53',
   },
   {
     id: '2375134',
@@ -4274,6 +4497,7 @@ const AGENTS = [
     on_time_delivery_score: '92%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96%',
+    payable_km: '3193.49',
   },
   {
     id: '2097247',
@@ -4293,6 +4517,7 @@ const AGENTS = [
     on_time_delivery_score: '92%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '96%',
+    payable_km: '1955.60',
   },
   {
     id: '580603',
@@ -4312,6 +4537,7 @@ const AGENTS = [
     on_time_delivery_score: '91.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.9%',
+    payable_km: '2163.41',
   },
   {
     id: '697781',
@@ -4331,6 +4557,7 @@ const AGENTS = [
     on_time_delivery_score: '91.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.9%',
+    payable_km: '2300.27',
   },
   {
     id: '831297',
@@ -4350,6 +4577,7 @@ const AGENTS = [
     on_time_delivery_score: '91.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.8%',
+    payable_km: '2400.18',
   },
   {
     id: '1091674',
@@ -4369,6 +4597,7 @@ const AGENTS = [
     on_time_delivery_score: '91.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.8%',
+    payable_km: '1068.98',
   },
   {
     id: '1981465',
@@ -4388,6 +4617,7 @@ const AGENTS = [
     on_time_delivery_score: '91.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.8%',
+    payable_km: '381.37',
   },
   {
     id: '351115',
@@ -4407,6 +4637,7 @@ const AGENTS = [
     on_time_delivery_score: '92.1%',
     fail_rate_score: '99.3%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '2308.04',
   },
   {
     id: '250642',
@@ -4426,6 +4657,7 @@ const AGENTS = [
     on_time_delivery_score: '91.9%',
     fail_rate_score: '99.6%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '1694.58',
   },
   {
     id: '2164437',
@@ -4445,6 +4677,7 @@ const AGENTS = [
     on_time_delivery_score: '91.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '2516.73',
   },
   {
     id: '1075016',
@@ -4464,6 +4697,7 @@ const AGENTS = [
     on_time_delivery_score: '91.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '3197.15',
   },
   {
     id: '2434541',
@@ -4483,6 +4717,7 @@ const AGENTS = [
     on_time_delivery_score: '91.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '1093.37',
   },
   {
     id: '1887194',
@@ -4502,6 +4737,7 @@ const AGENTS = [
     on_time_delivery_score: '91.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.7%',
+    payable_km: '994.30',
   },
   {
     id: '2072284',
@@ -4521,6 +4757,7 @@ const AGENTS = [
     on_time_delivery_score: '91.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.6%',
+    payable_km: '1657.44',
   },
   {
     id: '1988914',
@@ -4540,6 +4777,7 @@ const AGENTS = [
     on_time_delivery_score: '91.4%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '95.6%',
+    payable_km: '2964.95',
   },
   {
     id: '1384261',
@@ -4559,6 +4797,7 @@ const AGENTS = [
     on_time_delivery_score: '91.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.6%',
+    payable_km: '1552.86',
   },
   {
     id: '2146401',
@@ -4578,6 +4817,7 @@ const AGENTS = [
     on_time_delivery_score: '91.3%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '95.6%',
+    payable_km: '3015.23',
   },
   {
     id: '2073856',
@@ -4597,6 +4837,7 @@ const AGENTS = [
     on_time_delivery_score: '91.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.5%',
+    payable_km: '1619.62',
   },
   {
     id: '2023970',
@@ -4616,6 +4857,7 @@ const AGENTS = [
     on_time_delivery_score: '90.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.4%',
+    payable_km: '3401.47',
   },
   {
     id: '647442',
@@ -4635,6 +4877,7 @@ const AGENTS = [
     on_time_delivery_score: '90.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.4%',
+    payable_km: '2419.95',
   },
   {
     id: '2039332',
@@ -4654,6 +4897,7 @@ const AGENTS = [
     on_time_delivery_score: '90.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.4%',
+    payable_km: '1903.28',
   },
   {
     id: '1957157',
@@ -4673,6 +4917,7 @@ const AGENTS = [
     on_time_delivery_score: '90.9%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '1563.00',
   },
   {
     id: '2080500',
@@ -4692,6 +4937,7 @@ const AGENTS = [
     on_time_delivery_score: '90.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '665.44',
   },
   {
     id: '1199342',
@@ -4711,6 +4957,7 @@ const AGENTS = [
     on_time_delivery_score: '90.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '2397.37',
   },
   {
     id: '422582',
@@ -4730,6 +4977,7 @@ const AGENTS = [
     on_time_delivery_score: '90.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '2289.97',
   },
   {
     id: '1998943',
@@ -4749,6 +4997,7 @@ const AGENTS = [
     on_time_delivery_score: '90.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '1396.81',
   },
   {
     id: '2157061',
@@ -4768,6 +5017,7 @@ const AGENTS = [
     on_time_delivery_score: '90.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.3%',
+    payable_km: '2500.55',
   },
   {
     id: '2071082',
@@ -4787,6 +5037,7 @@ const AGENTS = [
     on_time_delivery_score: '90.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.2%',
+    payable_km: '1091.62',
   },
   {
     id: '224813',
@@ -4806,6 +5057,7 @@ const AGENTS = [
     on_time_delivery_score: '90.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.2%',
+    payable_km: '1179.01',
   },
   {
     id: '2266027',
@@ -4825,6 +5077,7 @@ const AGENTS = [
     on_time_delivery_score: '90.6%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '95.1%',
+    payable_km: '1279.32',
   },
   {
     id: '95151',
@@ -4844,6 +5097,7 @@ const AGENTS = [
     on_time_delivery_score: '90.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95.1%',
+    payable_km: '752.10',
   },
   {
     id: '324774',
@@ -4863,6 +5117,7 @@ const AGENTS = [
     on_time_delivery_score: '90%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '95%',
+    payable_km: '256.33',
   },
   {
     id: '2171916',
@@ -4882,6 +5137,7 @@ const AGENTS = [
     on_time_delivery_score: '90.4%',
     fail_rate_score: '99.4%',
     final_delivery_quality_score: '94.9%',
+    payable_km: '1456.94',
   },
   {
     id: '1673062',
@@ -4901,6 +5157,7 @@ const AGENTS = [
     on_time_delivery_score: '89.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.8%',
+    payable_km: '2945.32',
   },
   {
     id: '1750857',
@@ -4920,6 +5177,7 @@ const AGENTS = [
     on_time_delivery_score: '89.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.8%',
+    payable_km: '2141.62',
   },
   {
     id: '1954457',
@@ -4939,6 +5197,7 @@ const AGENTS = [
     on_time_delivery_score: '89.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.7%',
+    payable_km: '2166.98',
   },
   {
     id: '664958',
@@ -4958,6 +5217,7 @@ const AGENTS = [
     on_time_delivery_score: '89.6%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '94.7%',
+    payable_km: '2371.50',
   },
   {
     id: '2250956',
@@ -4977,6 +5237,7 @@ const AGENTS = [
     on_time_delivery_score: '89.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.7%',
+    payable_km: '1766.54',
   },
   {
     id: '413802',
@@ -4996,6 +5257,7 @@ const AGENTS = [
     on_time_delivery_score: '89.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.7%',
+    payable_km: '2030.83',
   },
   {
     id: '1988104',
@@ -5015,6 +5277,7 @@ const AGENTS = [
     on_time_delivery_score: '89.8%',
     fail_rate_score: '99.5%',
     final_delivery_quality_score: '94.7%',
+    payable_km: '1549.73',
   },
   {
     id: '2085850',
@@ -5034,6 +5297,7 @@ const AGENTS = [
     on_time_delivery_score: '89.6%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '94.6%',
+    payable_km: '1130.14',
   },
   {
     id: '2073744',
@@ -5053,6 +5317,7 @@ const AGENTS = [
     on_time_delivery_score: '89.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.6%',
+    payable_km: '2240.66',
   },
   {
     id: '400657',
@@ -5072,6 +5337,7 @@ const AGENTS = [
     on_time_delivery_score: '89.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.6%',
+    payable_km: '2512.84',
   },
   {
     id: '1332796',
@@ -5091,6 +5357,7 @@ const AGENTS = [
     on_time_delivery_score: '89.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.6%',
+    payable_km: '154.83',
   },
   {
     id: '1151793',
@@ -5110,6 +5377,7 @@ const AGENTS = [
     on_time_delivery_score: '89%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.5%',
+    payable_km: '2255.50',
   },
   {
     id: '1957307',
@@ -5129,6 +5397,7 @@ const AGENTS = [
     on_time_delivery_score: '91.4%',
     fail_rate_score: '97.6%',
     final_delivery_quality_score: '94.5%',
+    payable_km: '488.74',
   },
   {
     id: '614855',
@@ -5148,6 +5417,7 @@ const AGENTS = [
     on_time_delivery_score: '88.9%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.4%',
+    payable_km: '2186.14',
   },
   {
     id: '375004',
@@ -5167,6 +5437,7 @@ const AGENTS = [
     on_time_delivery_score: '88.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.4%',
+    payable_km: '2988.60',
   },
   {
     id: '626296',
@@ -5186,6 +5457,7 @@ const AGENTS = [
     on_time_delivery_score: '88.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.3%',
+    payable_km: '2373.26',
   },
   {
     id: '2157100',
@@ -5205,6 +5477,7 @@ const AGENTS = [
     on_time_delivery_score: '88.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.2%',
+    payable_km: '2435.04',
   },
   {
     id: '2142522',
@@ -5224,6 +5497,7 @@ const AGENTS = [
     on_time_delivery_score: '88.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94.2%',
+    payable_km: '4024.57',
   },
   {
     id: '2146979',
@@ -5243,6 +5517,7 @@ const AGENTS = [
     on_time_delivery_score: '92%',
     fail_rate_score: '96.3%',
     final_delivery_quality_score: '94.1%',
+    payable_km: '130.26',
   },
   {
     id: '2076428',
@@ -5262,6 +5537,7 @@ const AGENTS = [
     on_time_delivery_score: '88%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '94%',
+    payable_km: '2238.63',
   },
   {
     id: '1799714',
@@ -5281,6 +5557,7 @@ const AGENTS = [
     on_time_delivery_score: '87.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.9%',
+    payable_km: '2670.56',
   },
   {
     id: '1943050',
@@ -5300,6 +5577,7 @@ const AGENTS = [
     on_time_delivery_score: '87.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.9%',
+    payable_km: '710.70',
   },
   {
     id: '2068743',
@@ -5319,6 +5597,7 @@ const AGENTS = [
     on_time_delivery_score: '87.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.9%',
+    payable_km: '1479.54',
   },
   {
     id: '1713495',
@@ -5338,6 +5617,7 @@ const AGENTS = [
     on_time_delivery_score: '87.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.8%',
+    payable_km: '36.21',
   },
   {
     id: '877838',
@@ -5357,6 +5637,7 @@ const AGENTS = [
     on_time_delivery_score: '87.5%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '93.6%',
+    payable_km: '2051.46',
   },
   {
     id: '2038884',
@@ -5376,6 +5657,7 @@ const AGENTS = [
     on_time_delivery_score: '87.4%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '93.6%',
+    payable_km: '1994.70',
   },
   {
     id: '2121447',
@@ -5395,6 +5677,7 @@ const AGENTS = [
     on_time_delivery_score: '87.1%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '93.5%',
+    payable_km: '2559.00',
   },
   {
     id: '951691',
@@ -5414,6 +5697,7 @@ const AGENTS = [
     on_time_delivery_score: '86.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.3%',
+    payable_km: '47.41',
   },
   {
     id: '555213',
@@ -5433,6 +5717,7 @@ const AGENTS = [
     on_time_delivery_score: '86.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '93.3%',
+    payable_km: '1816.98',
   },
   {
     id: '2179221',
@@ -5452,6 +5737,7 @@ const AGENTS = [
     on_time_delivery_score: '86.5%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '93.1%',
+    payable_km: '1952.23',
   },
   {
     id: '1245400',
@@ -5471,6 +5757,7 @@ const AGENTS = [
     on_time_delivery_score: '85.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.9%',
+    payable_km: '29.12',
   },
   {
     id: '1988856',
@@ -5490,6 +5777,7 @@ const AGENTS = [
     on_time_delivery_score: '85.9%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '92.8%',
+    payable_km: '1597.95',
   },
   {
     id: '1472945',
@@ -5509,6 +5797,7 @@ const AGENTS = [
     on_time_delivery_score: '85.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.8%',
+    payable_km: '996.83',
   },
   {
     id: '1189664',
@@ -5528,6 +5817,7 @@ const AGENTS = [
     on_time_delivery_score: '85.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.8%',
+    payable_km: '1913.21',
   },
   {
     id: '829743',
@@ -5547,6 +5837,7 @@ const AGENTS = [
     on_time_delivery_score: '85.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.7%',
+    payable_km: '1696.80',
   },
   {
     id: '2215271',
@@ -5566,6 +5857,7 @@ const AGENTS = [
     on_time_delivery_score: '85.5%',
     fail_rate_score: '99.7%',
     final_delivery_quality_score: '92.6%',
+    payable_km: '1633.01',
   },
   {
     id: '1928773',
@@ -5585,6 +5877,7 @@ const AGENTS = [
     on_time_delivery_score: '85%',
     fail_rate_score: '99.8%',
     final_delivery_quality_score: '92.4%',
+    payable_km: '1873.18',
   },
   {
     id: '1659404',
@@ -5604,6 +5897,7 @@ const AGENTS = [
     on_time_delivery_score: '84.5%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.2%',
+    payable_km: '1239.08',
   },
   {
     id: '2093793',
@@ -5623,6 +5917,7 @@ const AGENTS = [
     on_time_delivery_score: '84.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.2%',
+    payable_km: '988.69',
   },
   {
     id: '2216590',
@@ -5642,6 +5937,7 @@ const AGENTS = [
     on_time_delivery_score: '84.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '92.1%',
+    payable_km: '93.87',
   },
   {
     id: '638150',
@@ -5661,6 +5957,7 @@ const AGENTS = [
     on_time_delivery_score: '84.5%',
     fail_rate_score: '99.2%',
     final_delivery_quality_score: '91.9%',
+    payable_km: '2581.28',
   },
   {
     id: '407320',
@@ -5680,6 +5977,7 @@ const AGENTS = [
     on_time_delivery_score: '83.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '91.5%',
+    payable_km: '3264.44',
   },
   {
     id: '1913322',
@@ -5699,6 +5997,7 @@ const AGENTS = [
     on_time_delivery_score: '82.4%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '91.2%',
+    payable_km: '137.91',
   },
   {
     id: '199907',
@@ -5718,6 +6017,7 @@ const AGENTS = [
     on_time_delivery_score: '85.7%',
     fail_rate_score: '96.6%',
     final_delivery_quality_score: '91.1%',
+    payable_km: '77.32',
   },
   {
     id: '1903916',
@@ -5737,6 +6037,7 @@ const AGENTS = [
     on_time_delivery_score: '81.8%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '90.9%',
+    payable_km: '57.68',
   },
   {
     id: '192419',
@@ -5756,6 +6057,7 @@ const AGENTS = [
     on_time_delivery_score: '82.1%',
     fail_rate_score: '99.6%',
     final_delivery_quality_score: '90.8%',
+    payable_km: '1301.06',
   },
   {
     id: '417317',
@@ -5775,6 +6077,7 @@ const AGENTS = [
     on_time_delivery_score: '80%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '90%',
+    payable_km: '826.85',
   },
   {
     id: '1876238',
@@ -5794,6 +6097,7 @@ const AGENTS = [
     on_time_delivery_score: '80%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '90%',
+    payable_km: '23.96',
   },
   {
     id: '1872035',
@@ -5813,6 +6117,7 @@ const AGENTS = [
     on_time_delivery_score: '77.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '88.8%',
+    payable_km: '593.45',
   },
   {
     id: '627883',
@@ -5832,6 +6137,7 @@ const AGENTS = [
     on_time_delivery_score: '76%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '88%',
+    payable_km: '1078.65',
   },
   {
     id: '2186874',
@@ -5851,6 +6157,7 @@ const AGENTS = [
     on_time_delivery_score: '75.6%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '87.8%',
+    payable_km: '81.64',
   },
   {
     id: '886074',
@@ -5870,6 +6177,7 @@ const AGENTS = [
     on_time_delivery_score: '75.2%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '87.6%',
+    payable_km: '752.55',
   },
   {
     id: '890782',
@@ -5889,6 +6197,7 @@ const AGENTS = [
     on_time_delivery_score: '73.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '86.8%',
+    payable_km: '202.27',
   },
   {
     id: '2137802',
@@ -5908,6 +6217,7 @@ const AGENTS = [
     on_time_delivery_score: '73.7%',
     fail_rate_score: '99.5%',
     final_delivery_quality_score: '86.6%',
+    payable_km: '1008.20',
   },
   {
     id: '812660',
@@ -5927,6 +6237,7 @@ const AGENTS = [
     on_time_delivery_score: '73.1%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '86.5%',
+    payable_km: '1522.85',
   },
   {
     id: '613639',
@@ -5946,6 +6257,7 @@ const AGENTS = [
     on_time_delivery_score: '74.3%',
     fail_rate_score: '98.6%',
     final_delivery_quality_score: '86.5%',
+    payable_km: '454.52',
   },
   {
     id: '279751',
@@ -5965,6 +6277,7 @@ const AGENTS = [
     on_time_delivery_score: '71.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '85.9%',
+    payable_km: '291.82',
   },
   {
     id: '583072',
@@ -5984,6 +6297,7 @@ const AGENTS = [
     on_time_delivery_score: '70%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '85%',
+    payable_km: '154.21',
   },
   {
     id: '1706661',
@@ -6003,6 +6317,7 @@ const AGENTS = [
     on_time_delivery_score: '66.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '83.3%',
+    payable_km: '26.20',
   },
   {
     id: '2105959',
@@ -6022,6 +6337,7 @@ const AGENTS = [
     on_time_delivery_score: '61.3%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '80.6%',
+    payable_km: '207.57',
   },
   {
     id: '303306',
@@ -6041,6 +6357,7 @@ const AGENTS = [
     on_time_delivery_score: '50%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '75%',
+    payable_km: '34.29',
   },
   {
     id: '434668',
@@ -6060,6 +6377,7 @@ const AGENTS = [
     on_time_delivery_score: '50%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '75%',
+    payable_km: '9.70',
   },
   {
     id: '448302',
@@ -6079,6 +6397,7 @@ const AGENTS = [
     on_time_delivery_score: '46.7%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '73.3%',
+    payable_km: '726.78',
   },
   {
     id: '1550417',
@@ -6098,6 +6417,7 @@ const AGENTS = [
     on_time_delivery_score: '66.7%',
     fail_rate_score: '70%',
     final_delivery_quality_score: '68.3%',
+    payable_km: '53.69',
   },
   {
     id: '103461',
@@ -6117,6 +6437,7 @@ const AGENTS = [
     on_time_delivery_score: '0%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '50%',
+    payable_km: '1.21',
   },
   {
     id: '1687120',
@@ -6136,6 +6457,7 @@ const AGENTS = [
     on_time_delivery_score: '0%',
     fail_rate_score: '100%',
     final_delivery_quality_score: '50%',
+    payable_km: '0.00',
   },
   {
     id: '590860',
@@ -6718,4 +7040,3 @@ const AGENTS = [
     payable_km: '1693.77',
   },
 ];
-
