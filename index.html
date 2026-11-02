@@ -1,3 +1,136 @@
+<!-- <!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تقيم المندوب</title>
+    <link rel="icon" href="image/unnamed.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="image/unnamed-removebg-preview.png" alt="" width="200px" />
+        </div>
+        <h1>اعرف جودة التسليم</h1>
+        <p class="subtitle">أدخل رقم ID الخاص بك لعرض بياناتك</p>
+      </div>
+
+      <label for="agentId">🔢 رقم الـ ID</label>
+      <input
+        type="text"
+        id="agentId"
+        placeholder="أدخل رقم الـ ID هنا"
+        oninput="clearResult()"
+        onkeydown="handleEnterKey(event)"
+      />
+      <button onclick="lookup()">🔍 &nbsp; عرض بياناتي</button>
+
+      <div class="error-msg" id="errorMsg">
+        ❌ رقم ID غير موجود، تحقق من الرقم وحاول مجدداً
+      </div>
+
+      <div class="result-card" id="resultCard">
+        <div class="agent-header">
+          <div class="avatar">
+            <img
+              src="image/Screenshot_2026-06-20_150650-removebg-preview.png"
+              width="60px"
+              alt=""
+            />
+          </div>
+          <div>
+            <div class="agent-name" id="agentName"></div>
+            <div class="agent-id" id="agentIdDisplay"></div>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <span class="info-label">🏙️ منطقة العمل</span>
+          <span class="info-value" id="resArea"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🪪 رقم الإقامة</span>
+          <span class="info-value" id="resIqama"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🗓️ التاريخ</span>
+          <span class="info-value" id="resDate"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🏣 اسم الشركة</span>
+          <span class="info-value" id="contract_name"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">⭐ التصنيف</span>
+          <span class="info-value"><span class="badge" id="resBadge"></span></span>
+        </div>
+
+        <div class="section-title">📊 إحصائيات التحقق من الوجه</div>
+
+        <div class="info-row">
+          <span class="info-label">🔄 إجمالي طلبات التحقق</span>
+          <span class="info-value" id="resTotalVerification"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">✅ طلبات التحقق الناجحة</span>
+          <span class="info-value" id="resSuccessfulVerification"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">📈 نسبة نجاح التحقق</span>
+          <span class="info-value" id="resVerificationRate"></span>
+        </div>
+
+        <div class="section-title">📦 إحصائيات الطلبات</div>
+
+        <div class="info-row">
+          <span class="info-label">🛒 إجمالي الطلبات</span>
+          <span class="info-value" id="resGrossOrders"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">✔️ الطلبات المكتملة</span>
+          <span class="info-value" id="resCompletedOrders"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">⏱️ المكتملة في الوقت</span>
+          <span class="info-value" id="resCompletedInTime"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">❌ الطلبات الفاشلة</span>
+          <span class="info-value" id="resFailedOrders"></span>
+        </div>
+
+        <div class="info-row" id="rowPayableKm" style="display: none">
+          <span class="info-label">🛣️ المسافة المدفوعة (كم)</span>
+          <span class="info-value" id="resPayableKm"></span>
+        </div>
+
+        <div class="section-title">🏆 مؤشرات الأداء</div>
+
+        <div class="info-row">
+          <span class="info-label">🕐 نسبة التسليم في الوقت</span>
+          <span class="info-value" id="resOnTimeScore"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">🎯 جودة التسليم النهائية</span>
+          <span class="info-value" id="resFinalScore"></span>
+        </div>
+      </div>
+
+      <div class="footer" style="color: red" id="footerText"></div>
+      <p class="footer" style="color: red"></p>
+    </div>
+
+    <script src="data.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+ -->
+
+
 <!doctype html>
 <html lang="ar" dir="rtl">
   <head>
